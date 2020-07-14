@@ -1,0 +1,233 @@
+html, body {
+	height:100%;
+    overflow-x:hidden;
+    background: #181818;
+    font-family: sans-serif;
+    padding: 0 !important;
+}
+
+.sidebar {
+	position: fixed;
+    top: 40%;
+    z-index: 99;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar ul li {
+	display: block;
+    border-bottom: 2px solid #ffffff;
+    color:#fff;
+    padding: 1rem 0 0.2rem 0;
+    width: 7rem;
+    text-align: center;
+}
+
+.sidebar ul li:hover {
+    border-color: #ffcb08;
+}
+
+.sidebar ul li:hover a {
+    color: #ffcb08;
+}
+
+.sidebar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#landing {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#landing #bg {
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: opacity(50%) brightness(150%) blur(3px);
+    width: 100%;
+}
+
+#landing #logo {
+	position: absolute;
+	width: 20%;
+	right: 0;
+	left: 40vw;
+}
+
+#landing p {
+    color: #ffcb08;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-weight: bolder;
+    top: 80%;
+    font-size: 25px;
+}
+
+#web, #mobile {
+    width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: justify;
+}
+
+#acesso {
+    margin: 5% 0 5% 0;
+    text-align: center;
+}
+
+#acesso a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+h1{
+    color: #ffcb08;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem {
+    width: 40%;
+    padding: 15px;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.texto {
+    width: 60%;
+}
+
+b{color: #ffcb08;}
+
+.footer{ 
+	color: #ffffff;
+	width:100%;
+	text-align:center;
+	position: relative;        
+	bottom: 1%; 
+}
+
+@media only screen and (max-width: 374px) {
+    .sidebar{
+        top: 35%;
+    }
+
+    .sidebar ul li {
+        font-size: 10px;
+        width: 4rem;
+    }
+
+    #landing p {
+        width: 60%;
+        top: 15%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 374px) and (max-width: 415px) {
+    .sidebar{
+        top: 40%;
+    }
+
+    .sidebar ul li {
+        font-size: 12px;
+        width: 4rem;
+    }
+
+    #landing #logo{
+        width: 40% !important;
+        top: 10% !important;
+		left: 30% !important;
+    }
+
+    #landing p {
+        width: 60%;
+        font-size: 14px !important;
+        top: 60% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+    .imagem {
+        display: none;
+    }
+
+    .sidebar{
+        top: 40%;
+    }
+
+    .sidebar ul li {
+        font-size: 12px;
+        width: 4rem;
+    }
+
+    #landing #logo{
+        width: 40% !important;
+        top: 10% !important;
+		left: 30% !important;
+    }
+
+    #landing p {
+        font-size: 14px !important;
+        top: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .imagem {
+        display: none;
+    }
+
+    #web, #mobile {
+        font-size: 14px;
+        width:95%;
+    }
+
+    #landing #bg{
+        filter: opacity(0%);
+    }
+	
+	#landing #logo{
+        width: 40%;
+        top: 10%;
+		left: 30%;
+    }
+
+    #landing p {
+        left: 20%;
+        font-size: 14px;
+        top: 60%;
+    }
+ 
+    #acesso {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #acesso .btn {
+        width: 70%;
+    }
+
+    #acesso .motorista {
+        margin-top: 4%;
+    }
+}

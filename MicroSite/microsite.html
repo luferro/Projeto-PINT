@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+    <meta charset ="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MicroSite Projeto PINT">
+	
+    <title>MicroSite</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body> 
+    <div class="sidebar">
+        <ul>
+            <li><a href="#landing">Landing</a></li>
+            <li><a href="#web">Web</a></li>
+            <li><a href="#mobile">Mobile</a></li>
+            <li><a href="#acesso">Acessos</a></li>
+        </ul>
+    </div>
+    <div id="landing">
+        <img id="bg" src="./imagens/bg.jpg">
+		<img id="logo" src="./imagens/logo_CMV.png">
+        <p>Uma solução DRT que oferece um sistema de registo e gestão de reservas de viagens através de uma aplicação Web, para funcionários, e através de uma aplicação Mobile, para clientes e motoristas.</p>
+    </div>
+    <div id="web" class="mt-4">
+        <h1>Website</h1>
+        <div class="wrapper">
+            <div class="imagem">
+                <img src="./imagens/perfil_cmv.png">
+            </div>
+            <div class="texto">
+				O <b>perfil CMV</b> tem como foco a consulta de dados.<br>Isto permite que funcionários da Câmara Municipal de Viseu tenham a possibilidade de consultar os diversos dados utilizados nesta solução DRT. Com isto, a Câmara Municipal de Viseu ganha uma maior noção do que é está a acontecer, possibilitando a tomada de decisões relativas ao futuro desta solução de forma mais segura e simples.
+				<br><br>
+				Ações possíveis neste perfil:
+				<ul>
+					<li>Permite a consulta de estatísticas mais gerais como número total de motoristas, clientes e viagens bem como a origem mais/menos popular e destino mais/menos popular.</li>
+					<li>Permite a consulta de todas as viagens já marcadas permitindo verificar os seus detalhes.</li>
+					<li>Permite a consulta de todas os clientes, tendo assim acesso aos detalhes fornecidos aquando do registo presencial.</li>
+					<li>Permite a consulta de todas os motoristas, tendo assim acesso aos detalhes fornecidos aquando do registo.</li>
+					<li>Permite a consulta de todas as viaturas, tendo assim acesso aos seus detalhes.</li>
+				</ul>
+            </div>
+        </div>
+        <br>
+        <div class="wrapper">
+            <div class="texto">
+				O <b>perfil Telefonista</b> tem como foco permitir o registo e cancelamento de pedidos de viagem.<br>Assim, o telefonista recebe o pedido do cliente e conforme os detalhes desse mesmo pedido, faz o seu registo. Este pedido de viagem é depois enviado para o Administrador deste sistema que tratará de analisar o pedido de viagem.<br>No caso de se tratar de um cancelamento de pedido de viagem, o telefonista submete o pedido de cancelamento ao Administrador do sistema que, mais uma vez, tratará de analisar o pedido de cancelamento.
+				<br><br>
+				Ações possíveis neste perfil:
+				<ul>
+					<li>Permite o registo de um pedido de viagem com base nos detalhes fornecidos pelo cliente.</li>
+					<li>Permite a submissão de um pedido de cancelamento.</li>
+				</ul>            
+			</div>
+            <div class="imagem">
+                <img src="./imagens/perfil_telefonista.png">
+            </div>
+        </div>
+        <br>
+        <div class="wrapper">
+            <div class="imagem">
+                <img src="./imagens/perfil_presencial.png">
+            </div>
+            <div class="texto">
+				O <b>perfil Presencial</b> tem como foco tratar de todas as ações a serem realizadas de forma presencial com o cliente.<br>Assim, é possível realizar o registo do cliente no sistema, onde o cliente fornece os seus dados ao funcionário e confirma posteriormente a receção de um email para validar a sua conta com o funcionário.<br>É também possível consultar uma lista de clientes que permite ao funcionário verificar se o cliente em questão já se encontra registado no sistema ou não.<br>Além disto, é possível também notificar clientes que tenham valores em atraso para pagar, bem como emitir uma fatura para um determinado cliente.
+				<br><br>
+				Ações possíveis neste perfil:
+				<ul>
+					<li>Permite o registo de um cliente no sistema.</li>
+					<li>Permite a consulta de todos os clientes já registados no sistema.</li>
+					<li>Permite a notificação de todos os clientes com dívidas.</li>
+					<li>Permite a emissão de faturas para clientes com dívidas.</li>
+				</ul>            
+			</div>
+        </div>
+        <br>
+        <div class="wrapper">
+            <div class="texto">
+				O <b>perfil Administrador</b> tem como foco tratar da gestão de todo o sistema.<br>O administrador recebe os pedidos de viagem/cancelamento submetidos pelo perfil telefonista que tenham sido realizados a partir das 17h00 do dia anterior e até às 17h00 do dia atual. Com base na sua análise, o administrador decide se concede o registo de uma dada viagem ou de um dado cancelamento. Aquando do registo de uma viagem, o administrador escolhe um motorista e viatura que se adequem ao pedido realizado previamente. A disponibilidade de um motorista e viatura, bem como o custo da viagem são verificados automaticamente.<br>Além disto, o administrador consegue também consultar todas as viagens já marcadas bem como as que já foram realizadas. O administrador tem também acesso a uma lista de clientes e motoristas como o perfil CMV, mas neste caso, o administrador tem também a opção de suspender/ativar um dado utilizador. Também é possível o registo de novos motoristas e viaturas, bem como a consulta de todas as viaturas já existentes.
+				<br><br>
+				Ações possíveis neste perfil:
+				<ul>
+					<li>Permite o registo de viagens com base nos pedidos previamente realizados.</li>
+					<li>Permite a consulta dos dados das viagens marcadas, viagens realizadas, clientes, motoristas e viaturas.</li>
+					<li>Permite suspender ou ativar um dado cliente/motorista.</li>
+					<li>Permite o registo de novos motoristas e viaturas.</li>
+				</ul>            
+			</div>
+            <div class="imagem">
+                <img src="./imagens/perfil_admin.png">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="mobile" class="mt-4">
+        <h1>Mobile</h1>
+            <div class="wrapper">
+                <div class="imagem" style="width: 20%;">
+                    <img src="./imagens/app_cliente.png">
+                </div>
+                <div class="texto">
+                    A <b>aplicação Cliente</b> tem como foco permitir que um cliente tenha a possibilidade de realizar pedidos de viagem e cancelamento bem como verificar as suas viagens, sejam estas as suas viagens marcadas ou viagens que já tenham sido realizadas. Além das viagens especificas do cliente, é também possível consultar todas as viagens existentes.<br>A aplicacção cliente oferece também um sistema de notificações que permite que o cliente seja notificado sempre que um pedido de viagem é submetido, um pedido de cancelamento é submetido, uma viagem é marcada, uma viagem é cancelada ou um dívida é adicionada. Além disto, a aplicação cliente permite que o cliente atualize a sua palavra-passe.
+                    <br><br>
+                    Ações possíveis nesta aplicação:
+                    <ul>
+                        <li>Permite efetuar um pedido de viagem.</li>
+						<li>Permite efetuar um pedido de cancelamento.</li>
+                        <li>Permite consultar as suas viagens, sejam estas marcadas ou realizadas.</li>
+                        <li>Permite consultar todas as viagens existentes.</li>
+                        <li>Permite receber notificações em relação aos pedidos de viagens, marcações de viagens e adição de dívidas.</li>
+                        <li>Permite atualizar a palavra-passe.</li>
+                    </ul>            
+                </div>
+            </div>
+            <br>
+            <div class="wrapper">
+                <div class="texto">
+                    A <b>aplicação Motorista</b> tem como foco permitir que um motorista tenha a possibilidade de consultar todas as viagens que tem agendadas. Nas viagens agendadas, temos uma opção "Detalhes" onde o motorista consegue contactar o cliente associado a uma dada viagem em caso de atraso ou algum outro problema. Além da opção "Detalhes", temos também a opção "Iniciar Viagem" que permite ao motorista consultar o mapa e os detalhes da viagem selecionada.<br>Uma vez finalizada a viagem, o motorista recolhe o pagamento, presencialmente, e confirma o pagamento na aplicação. Caso o cliente não pague, o motorista deve então selecionar a opção "Não Pagou" que tratará de registar uma dívida na conta do cliente impossibilitando-o de continuar a efetuar pedidos de viagem. Além disto, a aplicação motorista permite que o motorista atualize a sua palavra-passe.
+                    <br><br>
+                    Ações possíveis nesta aplicação:
+                    <ul>
+                        <li>Permite consultar todas as viagens agendadas</li>
+                        <li>Permite contactar o cliente associado a uma dada viagem em caso de atraso ou outro problema.</li>
+                        <li>Permite consultar os detalhes de uma dada viagem agendada.</li>
+                        <li>Permite associar uma dívida a um cliente que não tenha pago.</li>
+                        <li>Permite atualizar a palavra-passe.</li>
+                    </ul>            
+                </div>
+                <div class="imagem">
+                    <img src="./imagens/app_motorista.png" style="width: 40%;">
+                </div>
+            </div>
+        </div>
+    <br>
+    <div id="acesso">
+        <h1>Acesso aos conteúdos</h1>
+        <br>
+        <div>
+            <h4>Website</h4>
+            <button class="btn btn-light"><a target="_blank" rel="noopener noreferrer" href="https://frontend-pint.herokuapp.com/">Ir ao Website</a></button>
+        </div>
+        <br>
+        <div>
+            <h4>Mobile</h4>
+            <button class="btn btn-light"><a target="_blank" rel="noopener noreferrer" href="./APKs/AppCliente.apk" download>APK - Cliente</a></button>
+            <button class="btn btn-light motorista"><a target="_blank" rel="noopener noreferrer" href="./APKs/AppMotorista.apk" download>APK - Motorista</a></button>
+        </div>
+    </div>
+    <br>
+    <div class="footer">Todos os direitos reservados.</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
