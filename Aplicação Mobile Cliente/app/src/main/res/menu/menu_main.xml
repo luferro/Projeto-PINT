@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_marcarviagem"
+        android:icon="@drawable/ic_marcarviagem"
+        android:title="Marcar Viagem" />
+    <item android:id="@+id/nav_marcadas"
+        android:icon="@drawable/ic_car"
+        android:title="Viagens Marcadas" />
+    <item android:id="@+id/nav_realizadas"
+        android:icon="@drawable/ic_viagensrealizadas"
+        android:title="Viagens Realizadas" />
+    <item android:id="@+id/nav_notificacoes"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notificações" />
+    <item android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_user"
+        android:title="Perfil" />
+    <item android:id="@+id/nav_termos"
+        android:icon="@drawable/ic_file"
+        android:title="Termos e Condições" />
+    <item android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Sair" />
+
+</menu>

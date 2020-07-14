@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Cliente_APP</string>
+    <string name="imagem">imagem</string>
+    <string name="img">todo</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="login">Login</string>
+    <string name="recover">Esqueceu-se da Palavra Passe?</string>
+    <string name="passe">Recuperação da Palavra Passe</string>
+    <string name="telefone">Telefone</string>
+    <string name="sms">Enviar SMS</string>
+    <string name="imagem3">imagem</string>
+    <string name="sucesso">Mensagem enviada com sucesso!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="apoio_ao_cliente">Apoio ao Cliente</string>
+    <string name="_mensagens_notificação">1 mensagem não lida</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- LOCALIDADES -->
+
+    <string-array name="localidades">
+        <item>Hospital</item>
+        <item>CMV</item>
+        <item>Palacio do Gelo</item>
+        <item>Almargem</item>
+        <item>Aval</item>
+        <item>Avelinha</item>
+        <item>Aviuges</item>
+        <item>Bairro da Gândara</item>
+        <item>Balisque</item>
+        <item>Barbeita</item>
+        <item>Bassim</item>
+        <item>Bertelhe</item>
+        <item>Boa Aldeia</item>
+        <item>Bodiosa Nova</item>
+        <item>Brufe</item>
+        <item>Casal-Cavernaes</item>
+        <item>Cabril</item>
+        <item>Cabrum</item>
+        <item>Cadimas</item>
+        <item>Calde</item>
+        <item>Canidelo</item>
+        <item>Carcavelos</item>
+        <item>Carqueijal</item>
+        <item>Carregoso</item>
+        <item>Carriça</item>
+        <item>Carvalhais</item>
+        <item>Carvalhal</item>
+        <item>Corredoura</item>
+        <item>Corvos a Nogueira</item>
+        <item>Casainho</item>
+        <item>Casal</item>
+        <item>Casal-Torredeita</item>
+        <item>Casal de Esporao</item>
+        <item>Casaldeiro</item>
+        <item>Cepoes</item>
+        <item>Cota</item>
+        <item>Couto</item>
+        <item>Couto de Baixo</item>
+        <item>Covelas</item>
+        <item>Covelo</item>
+        <item>Dade</item>
+        <item>Dornelas</item>
+        <item>Ermida</item>
+        <item>Farminhao</item>
+        <item>Figueiredo</item>
+        <item>Forniço</item>
+        <item>Fragosela de Baixo</item>
+        <item>Guimaraes</item>
+        <item>Juncal</item>
+        <item>Lagoinhas</item>
+        <item>Lamaçais</item>
+        <item>Lubagueira</item>
+        <item>Macieira</item>
+        <item>Magarelas</item>
+        <item>Mata</item>
+        <item>Moeira de Baixo</item>
+        <item>Moimenta</item>
+        <item>Morrosa</item>
+        <item>Mosteirinho</item>
+        <item>Nelas</item>
+        <item>Nespereira</item>
+        <item>Nesperido</item>
+        <item>Nogueira</item>
+        <item>Nogueira de Cima</item>
+        <item>Nogueiredo</item>
+        <item>Novais</item>
+        <item>Outeirinho</item>
+        <item>Outeiro</item>
+        <item>Outeiro de Povolide</item>
+        <item>Paraduça</item>
+        <item>Passos</item>
+        <item>Passos de Silgueiros</item>
+        <item>Pedra Cavaleira</item>
+        <item>Pinheiro</item>
+        <item>Pindelo</item>
+        <item>Pinouca</item>
+        <item>Poives</item>
+        <item>Portela</item>
+        <item>Pousa Maria</item>
+        <item>Povoa</item>
+        <item>Povoa do Dao</item>
+        <item>Povoa de Moscoso</item>
+        <item>Povoação</item>
+        <item>Prime</item>
+        <item>Quinta dos Frades</item>
+        <item>Quintas</item>
+        <item>Real</item>
+        <item>Remonde</item>
+        <item>Routar</item>
+        <item>Salgueiral</item>
+        <item>Sanguinhedo de Maças</item>
+        <item>Santos Evos</item>
+        <item>São Cosmado</item>
+        <item>São Cristovao</item>
+        <item>São Jose</item>
+        <item>São Martinho-S. Pedro de France</item>
+        <item>São Simao</item>
+        <item>Sequeiros</item>
+        <item>Serdaninha</item>
+        <item>Sernada</item>
+        <item>Silvares</item>
+        <item>Silvares-Cavernaes</item>
+        <item>Sitio de Vila Mea</item>
+        <item>Sobral do Dao</item>
+        <item>Souto do Chao</item>
+        <item>Taboadelo</item>
+        <item>Termas de Alcafache</item>
+        <item>Torredeita</item>
+        <item>Travasso</item>
+        <item>Travassos</item>
+        <item>Travassos-Orgens</item>
+        <item>Varzea</item>
+        <item>Varzea-Torredeita</item>
+        <item>Vila de Ferreiros</item>
+        <item>Vila Cha-Cepoes</item>
+        <item>Vila Cha do Monte</item>
+        <item>Vila Corça</item>
+        <item>Vida de um Santo</item>
+        <item>Vila Nova-Couto de Baixo</item>
+        <item>Vilar</item>
+        <item>Vilar da Ordem</item>
+        <item>Vilar de Baixo</item>
+        <item>Vilar do Monte</item>
+        <item>Vilarinho</item>
+        <item>Vilas Covas</item>
+        <item>Vouguinha</item>
+        <item>Zonho</item>
+    </string-array>
+</resources>

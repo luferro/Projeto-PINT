@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="134dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="02/05/2020"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/editText4"
+        app:layout_constraintStart_toEndOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/include3" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="138dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="7.5 €"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/include3" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text=" 15:00 H"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toStartOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="244dp"
+        android:text="Bagagem: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="128dp"
+        android:text="Necessidades Especiais: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="48dp"
+        android:text="António Correia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="271dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="9dp"
+        android:text="Audi A4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/caricon" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toStartOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/profile_user" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="350dp"
+        android:text="Total passageiros:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="31dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="349dp"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        android:src="@drawable/ic_partilha" />
+
+    <Button
+        android:id="@+id/buttonEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:layout_marginBottom="88dp"
+        android:background="#FFCB08"
+        android:text=" Pedido de Cancelamento "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="350dp"
+        android:text="num"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView19"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="76dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="16dp"
+        android:text="xxxxx"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="58dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="65dp"
+        android:text="xxxxx"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="153dp"
+        android:src="@drawable/ic_time" />
+
+    <ImageView
+        android:src="@drawable/ic_date"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="153dp"
+        android:src="@drawable/ic_euro" />
+
+</RelativeLayout>

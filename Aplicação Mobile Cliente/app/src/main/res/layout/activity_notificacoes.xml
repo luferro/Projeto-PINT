@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notificacoes"
+    android:layout_centerHorizontal="true">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:text="Notificações"
+        android:textAlignment="center"
+        android:textColor="#7C7474"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/refresh"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="63dp"
+        android:background="@color/white"
+        android:layout_marginStart="260dp"
+        android:src="@drawable/ic_refresh"/>
+
+    <TextView
+        android:id="@+id/txtvazio"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:text="Não tem notificações. Volte mais tarde!"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notirecycl"
+        android:layout_width="350dp"
+        android:layout_height="650dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recovery">
+
+    <ImageView
+        android:id="@+id/visa"
+        android:layout_width="500dp"
+        android:layout_height="735dp"
+        android:contentDescription="imagem"
+        android:src="@drawable/fundo" />
+
+    <ImageView
+        android:id="@+id/muv"
+        android:layout_width="231dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="95dp"
+        android:contentDescription="todo"
+        android:src="@drawable/muv"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="95dp" />
+
+    <TextView
+        android:id="@+id/rec"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:text="Recuperação da Palavra-Passe"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mailrecover"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/edit_round"
+        android:drawableStart="@drawable/ic_email"
+        android:autofillHints=""
+        android:hint="  Email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_email" />
+
+    <Button
+        android:id="@+id/btn_recover"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/button_round"
+        android:text="Enviar Email"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/button_round"
+        android:text="Voltar"
+        android:textColor="#fff" />
+
+</RelativeLayout>

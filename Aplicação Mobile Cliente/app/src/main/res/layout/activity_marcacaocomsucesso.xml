@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_sucesso"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:background="#FFC107"
+        android:text="Continuar"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="83dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/checked" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Pedido Efetuado com Sucesso!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="74dp"
+        android:text="Boa Viagem"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Tenha acesso às suas viagens marcadas através do Menu -> Viagens Marcadas.
+Obrigado!"
+        android:layout_marginTop="450dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="51dp"
+        android:layout_height="79dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:srcCompat="@drawable/hinticon" />
+</RelativeLayout>

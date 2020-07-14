@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFC107"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:id="@+id/my_toolbar">
+
+    <!--<ImageButton
+        android:id="@+id/open_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu"
+        android:background="#FFC107"
+        android:layout_marginLeft="10dp"/>-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:src="@drawable/muv" />
+
+
+
+</androidx.appcompat.widget.Toolbar>
