@@ -12,7 +12,9 @@ Credenciais a serem utilizadas:
   WEB
     -Admin			                    email: josefigueiredo@email.com			            password: muv123
     -CMV			                      email: albertoferreira@email.com		            password: muv123
-		-Telefonista		                email: franciscafernandes@email.com		          password: muv123
+		
+
+-Telefonista		                email: franciscafernandes@email.com		          password: muv123
 		-Presencial		                  email: susanarodrigues@email.com		            password: muv123
 
   Caso seja necessário experimentar a plataforma localmente, basta executar o comando npm install 
