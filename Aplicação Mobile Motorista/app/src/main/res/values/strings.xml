@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">APPTaxista</string>
+    <string name="imagem">imagem</string>
+    <string name="img">TODO</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="login">Login</string>
+    <string name="recover">Esqueceu-se da Palavra Passe?</string>
+    <string name="passe">Recuperação da Palavra Passe</string>
+    <string name="telefone">Telefone</string>
+    <string name="sms">Enviar SMS</string>
+    <string name="imagem3">imagem</string>
+    <string name="sucesso">Mensagem enviada com sucesso!</string>
+    <string name="comparecia">Registar falta de comparência</string>
+    <string name="concluido">Concluído</string>
+    <string name="pago">PAGO</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="euro">€</string>
+    <string name="pagamentos">Pagamentos</string>
+    <string name="passageiros">Passageiros</string>
+    <string name="voltar">Voltar</string>
+    <string name="title_activity_mensagem">Mensagem</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="enviar">Enviar</string>
+    <string name="pagar">Pagar</string>
+</resources>

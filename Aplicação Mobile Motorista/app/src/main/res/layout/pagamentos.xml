@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pagamentos"
+    tools:ignore="MissingDefaultResource">
+
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="605dp"
+        android:background="@drawable/button_round"
+        android:textColor="#fff"
+        android:text="@string/concluido" />
+
+    <Button
+        android:id="@+id/buttonr"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="605dp"
+        android:textColor="#000"
+        android:text="Registar Falta de Comparencia" />
+
+    <TextView
+        android:id="@+id/pagamentos"
+        android:layout_width="147dp"
+        android:layout_height="43dp"
+        android:text="Pagamentos"
+        android:textColor="#7C7474"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="460dp"
+        android:layout_height="71dp"
+        android:background="#ffc400"
+        app:srcCompat="@drawable/muv" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:text="Total a receber:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="30dp"/>
+    <TextView
+        android:id="@+id/pagar"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:text="E"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="165dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="30dp"
+        app:srcCompat="@drawable/iconcliente" />
+
+    <TextView
+        android:id="@+id/textcliente"
+        android:layout_width="110dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="270dp"
+        android:text="Cliente"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <TextView
+    android:id="@+id/textorigem"
+    android:layout_width="130dp"
+    android:textAlignment="center"
+    android:layout_height="31dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="370dp"
+    android:text="origem"
+    android:textColor="#000000" />
+    <TextView
+        android:id="@+id/textdestino"
+        android:layout_width="130dp"
+        android:layout_height="31dp"
+        android:textAlignment="center"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="370dp"
+        android:text="destino"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/textseparador"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="370dp"
+        android:text="------"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textacompanhantes"
+        android:layout_width="170dp"
+        android:layout_height="31dp"
+        android:textAlignment="center"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="490dp"
+        android:text="Acompanhante(s)"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/textnmr"
+        android:layout_width="40dp"
+        android:textAlignment="center"
+        android:layout_height="31dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="490dp"
+        android:text="N"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="177dp"
+        app:srcCompat="@drawable/ic_action_add" />
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/button_round"
+        android:textColor="#fff"
+        android:text="@string/pagar" />
+    <Button
+        android:id="@+id/npay"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/button_red"
+        android:textColor="#000"
+        android:text="Não Pagou" />
+
+</RelativeLayout>

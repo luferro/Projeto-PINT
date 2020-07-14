@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/visa"
+        android:layout_width="500dp"
+        android:layout_height="735dp"
+        android:contentDescription="@string/imagem"
+        android:src="@drawable/image" />
+
+    <ImageView
+        android:id="@+id/muv"
+        android:layout_width="231dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="95dp"
+        android:contentDescription="@string/img"
+        android:src="@drawable/image1" />
+
+    <TextView
+        android:id="@+id/passe"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:text="@string/passe"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailre"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/edit_round"
+        android:drawableStart="@drawable/ic_action_email"
+        android:autofillHints=""
+        android:hint="  E-mail"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="Enviar E-mail"
+        android:background="@drawable/button_round"
+        android:textColor="#fff" />
+
+
+
+</RelativeLayout>

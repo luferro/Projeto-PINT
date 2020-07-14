@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ConfirmarPag" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="460dp"
+        android:layout_height="71dp"
+        android:background="#ffc400"
+        app:srcCompat="@drawable/muv" />
+
+    <TextView
+        android:id="@+id/pagamentos"
+        android:layout_width="147dp"
+        android:layout_height="43dp"
+        android:text="Pagamento"
+        android:textColor="#7C7474"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/bg" />
+    <ImageView
+        android:layout_marginStart="110dp"
+        android:id="@+id/imageView12"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="140dp"
+        app:srcCompat="@drawable/ic_action_checked" />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:id="@+id/textView21"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:text="Viagem Paga. Obrigado!"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"/>
+
+    <Button
+        android:id="@+id/conc"
+        android:layout_width="112dp"
+        android:layout_height="46dp"
+        android:background="@drawable/button_round"
+        android:text="Concluir"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="480dp" />
+</RelativeLayout>

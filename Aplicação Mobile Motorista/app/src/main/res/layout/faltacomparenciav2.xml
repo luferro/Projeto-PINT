@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FaltaComparencia"
+    tools:ignore="MissingDefaultResource">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:text="Continuar"
+        android:textSize="18sp"
+        android:background="@drawable/button_round"
+        android:textColor="#fff"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="430dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="243dp"
+        android:layout_height="35dp"
+        android:text="Falta de comparência"
+        android:textColor="#7C7474"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="460dp"
+        android:layout_height="71dp"
+        android:background="#ffc400"
+        app:srcCompat="@drawable/muv" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="141dp"
+        android:layout_height="45dp"
+        android:text="Passageiro:"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="25dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="141dp"
+        android:layout_height="45dp"
+        android:text="Observação:"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="25dp"/>
+
+    <EditText
+        android:id="@+id/p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/o"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+</RelativeLayout>

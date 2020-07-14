@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FimViagem"
+    tools:ignore="MissingDefaultResource">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="132dp"
+        android:layout_height="56dp"
+        android:background="@drawable/button_round"
+        android:text="Continuar"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="440dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="460dp"
+        android:layout_height="71dp"
+        android:background="#ffc400"
+        app:srcCompat="@drawable/muv" />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:id="@+id/imageView11"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/spot" />
+
+    <ImageView
+        android:layout_marginStart="130dp"
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/checked" />
+
+    <TextView
+
+        android:textAlignment="center"
+        android:id="@+id/textView21"
+        android:layout_width="316dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="30dp"
+        android:text="Viagem concluída com sucesso!"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:layout_marginTop="290dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Passageiros">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="460dp"
+        android:layout_height="75dp"
+        android:background="#ffc400"
+        app:srcCompat="@drawable/muv" />
+
+    <TextView
+        android:id="@+id/passageiro"
+        android:layout_width="147dp"
+        android:layout_height="43dp"
+        android:text="@string/passageiros"
+        android:textColor="#7C7474"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="30dp"
+        app:srcCompat="@drawable/iconcliente" />
+
+    <TextView
+        android:id="@+id/tcliente"
+        android:layout_width="100dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="180dp"
+        android:textSize="16sp"
+        android:text="Cliente"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/torigem"
+        android:layout_width="130dp"
+        android:textAlignment="center"
+        android:layout_height="31dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:text="origem"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/tdestino"
+        android:layout_width="130dp"
+        android:layout_height="31dp"
+        android:textAlignment="center"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="280dp"
+        android:text="destino"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/textseparador"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="280dp"
+        android:text="------"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tacompanhantes"
+        android:layout_width="170dp"
+        android:layout_height="31dp"
+        android:textAlignment="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="380dp"
+        android:text="Acompanhante(s)"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/tnmr"
+        android:layout_width="40dp"
+        android:textAlignment="center"
+        android:layout_height="31dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="380dp"
+        android:text="N"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="167dp"
+        app:srcCompat="@drawable/ic_action_add" />
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/ic_action_phone" />
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/ic_action_message" />
+
+    <Button
+        android:id="@+id/buttonv"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/button_round"
+        android:textColor="#fff"
+        android:text="@string/voltar" />
+
+</RelativeLayout>
