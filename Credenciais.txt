@@ -1,23 +1,14 @@
 WEB
 	Credenciais:
+	-Admin			email: josefigueiredo[at]email.com	password: muv123
+	-CMV			email: albertoferreira[at]email.com	password: muv123
+	-Telefonista		email: franciscafernandes[at]email.com	password: muv123
+	-Presencial		email: susanarodrigues[at]email.com	password: muv123
 
-		-Admin			email: josefigueiredo@email.com			password: muv123
-
-		-CMV			email: albertoferreira@email.com		password: muv123
-
-		-Telefonista		email: franciscafernandes@email.com		password: muv123
-
-		-Presencial		email: susanarodrigues@email.com		password: muv123
-
-
-	Caso seja necessário experimentar a plataforma localmente, basta executar o comando npm install 
-	tanto no cliente como no server para instalar as dependências.
+	Caso seja necessário experimentar a plataforma localmente, basta executar o comando npm install tanto no cliente como no server para instalar as dependências.
 
 APPs
 	APKs estão disponiveis no MicroSite na secção "Acessos"
-
 	Credenciais:
-
-		-Aplicacção Cliente	email: josebarbosa@email.com			password: muv123
-
-		-Aplicação Motorista	email: josesa@email.com				password: muv123
+	-Aplicação Cliente	email: josebarbosa[at]email.com		password: muv123
+	-Aplicação Motorista	email: josesa[at]email.com		password: muv123
