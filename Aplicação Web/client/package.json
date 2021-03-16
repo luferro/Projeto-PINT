@@ -9,7 +9,7 @@
     "crypto-js": "^4.0.0",
     "dotenv": "^8.2.0",
     "html2canvas": "^1.0.0-rc.5",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
